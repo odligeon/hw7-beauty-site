@@ -1,0 +1,83 @@
+.bonuses {
+    background: #EFEFEF;
+    padding-bottom: 100px;
+}
+
+.bonus {
+    background: #F13C6E;
+    padding: 35px 40px;
+    width: 540px;
+}
+
+.bonus__header {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.bonus__description {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    max-width: 231px;
+}
+
+.bonus__email {
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 0 9px 25px;
+    border: 2px #F13C6E solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.bonus__email:hover{
+    box-shadow: 1px 1px 50px 5px #fff;
+}
+
+.bonus__email:focus-visible{
+    outline-color: firebrick;
+    outline-offset: 2px;
+    background: #f9adc2;
+}
+
+.bonus__email:focus-visible::placeholder {
+    color: black;
+}
+
+.bonus__email::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.desc {
+    width: 141px;
+}
+
+.map__link {
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 9px 28px;
+    display: block;
+    text-decoration: none;
+    float: left;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.map__link:hover {
+    filter: drop-shadow(2px 4px 3px white);
+}
+
+.car__image {
+    margin-top: 21px;
+}

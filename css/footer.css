@@ -1,0 +1,127 @@
+
+.logos__section {
+    background: #EFEFEF;
+    padding-bottom: 80px;
+}
+
+.impulse {
+    padding: 35px 69px 35px 60px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    transition: all 0.3s ease-in-out;
+}
+
+.impulse:hover {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.last__seen__section {
+    background: #EFEFEF;
+    padding-bottom: 80px;
+}
+
+.footer__top {
+    padding: 60px 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.line {
+    height: 1px;
+    background: #EFEFEF;
+    margin-bottom: 25px;
+}
+
+.category__card {
+    width: 255px;
+    margin: 38px 30px 0 0;
+}
+
+.category__card:nth-of-type(4n+4){
+    margin-right: 0;
+}
+
+.sub__category > a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.sub__category > a:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    margin: 37px 20px 38px 0;
+    position: relative;
+}
+
+.social img:hover {
+    filter: drop-shadow(2px 4px 9px red);
+}
+
+.yt {
+    position: absolute;
+    top: 13px;
+    left: 9px;
+}
+
+.vk {
+    top: 13px;
+    left: 6px;
+    position: absolute;
+}
+
+.fb {
+    top: 11px;
+    left: 14px;
+    position: absolute;
+}
+
+.ig {
+    top: 10px;
+    left: 9px;
+    position: absolute;
+}
+
+.footer__phone {
+    margin: 50px 40px 50px 0;
+}
+
+.footer__contactUs .contacts__button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.copyrights {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer a {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 25px 0;
+    background: #EFEFEF;
+}

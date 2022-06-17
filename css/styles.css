@@ -1,0 +1,68 @@
+@import "reset.css";
+@import "header.css";
+@import "top+slider.css";
+@import "offers.css";
+@import "bonuses.css";
+@import "footer.css";
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.col1 {
+    width: 8.33%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.col4 {
+    width: 33.3%;
+}
+
+.text-template-1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fw-700 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.fw-400 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
